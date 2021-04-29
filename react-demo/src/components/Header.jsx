@@ -1,6 +1,6 @@
 import React, {} from 'react';
 
-const DemoComponent = () => {
+const Header = () => {
     return (<>
     <div>
          <h1>Tech Talk React Demo</h1>
@@ -8,4 +8,4 @@ const DemoComponent = () => {
     </>)
 }
 
-export default DemoComponent;
+export default Header;
