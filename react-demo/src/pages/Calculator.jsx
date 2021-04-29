@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../css/calculator.css';
+import '../css/Calculator.css';
 import ResultComponent from '../components/ResultComponent';
 import KeyPadComponent from "../components/KeyPadComponent";
 import NavBar from '../components/NavBar'
@@ -72,7 +72,7 @@ class Calculator extends Component {
 
     render() {
         return (
-        <div className='changecolor'>
+        <div>
         <div>
           <Header/>
           <NavBar/>

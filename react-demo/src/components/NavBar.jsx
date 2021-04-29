@@ -1,8 +1,5 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
-import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
-import Home from '../pages/Home.jsx';
-import Calculator from '../pages/Calculator.jsx';
 
 const NavBar = () => {
     return (
